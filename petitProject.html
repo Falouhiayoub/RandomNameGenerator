@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Name Chooser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to random name chooser</h2>
+    <input type="text" id="nameInput" placeholder="Veuillez Entrer un nom" required>
+    <button id="addBtn">Ajouter</button>
+
+    <div id="nameList"></div>
+
+    <button id="chooseBtn">Choisir un nom</button>
+  </div>
+
+  <div class="overlay" id="popupOverlay">
+    <div class="popup">
+      <p>The chosen name is :</p>
+      <h2 id="chosenName"></h2>
+      <button id="closePopup">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
